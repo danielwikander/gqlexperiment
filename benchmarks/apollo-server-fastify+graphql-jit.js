@@ -1,5 +1,5 @@
 const { ApolloServer } = require("apollo-server-fastify");
-const { createApolloSchema } = require("../lib/schemas/createApolloSchema");
+const { createApolloSchema } = require("../lib/createApolloSchema");
 const { parse } = require("graphql");
 const { compileQuery } = require("graphql-jit");
 const app = require("fastify")();

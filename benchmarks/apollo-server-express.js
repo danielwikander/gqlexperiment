@@ -1,4 +1,4 @@
-const { createApolloSchema } = require("../lib/schemas/createApolloSchema");
+const { createApolloSchema } = require("../lib/createApolloSchema");
 const { ApolloServer } = require("apollo-server-express");
 const express = require("express");
 

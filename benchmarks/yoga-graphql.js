@@ -1,5 +1,5 @@
 const { GraphQLServer } = require("graphql-yoga");
-const { createApolloSchema } = require("../lib/schemas/createApolloSchema");
+const { createApolloSchema } = require("../lib/createApolloSchema");
 const schema = createApolloSchema();
 
 const server = new GraphQLServer({ schema });

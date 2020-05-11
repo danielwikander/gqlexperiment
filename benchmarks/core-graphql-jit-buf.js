@@ -3,7 +3,7 @@ const { createServer } = require('http');
 const { execute, parse } = require('graphql');
 const { compileQuery } = require('graphql-jit');
 
-const { createApolloSchema } = require('../lib/schemas/createApolloSchema');
+const { createApolloSchema } = require('../lib/createApolloSchema');
 
 const schema = createApolloSchema();
 

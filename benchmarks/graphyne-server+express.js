@@ -1,4 +1,4 @@
-const { createApolloSchema } = require("../lib/schemas/createApolloSchema");
+const { createApolloSchema } = require("../lib/createApolloSchema");
 const express = require("express");
 const { GraphyneServer } = require('graphyne-server');
 const { graphqlUploadExpress } = require("graphql-upload");

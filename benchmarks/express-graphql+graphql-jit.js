@@ -1,5 +1,5 @@
 const graphqlHTTP = require("express-graphql");
-const { createApolloSchema } = require("../lib/schemas/createApolloSchema");
+const { createApolloSchema } = require("../lib/createApolloSchema");
 const express = require("express");
 const { parse } = require("graphql");
 const { compileQuery } = require("graphql-jit");

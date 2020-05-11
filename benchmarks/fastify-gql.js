@@ -1,6 +1,6 @@
 const Fastify = require("fastify");
 const GQL = require("fastify-gql");
-const { createApolloSchema } = require("../lib/schemas/createApolloSchema");
+const { createApolloSchema } = require("../lib/createApolloSchema");
 
 const schema = createApolloSchema();
 

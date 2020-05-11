@@ -5,7 +5,7 @@ const { execute, parse } = require('graphql');
 const { compileQuery } = require('graphql-jit');
 const turboJSONParse = require('turbo-json-parse');
 
-const { createApolloSchema } = require('../lib/schemas/createApolloSchema');
+const { createApolloSchema } = require('../lib/createApolloSchema');
 
 const jsonParse = turboJSONParse({
   type: 'object',

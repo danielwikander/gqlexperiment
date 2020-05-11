@@ -1,7 +1,7 @@
 {
-  "name": "fastify-benchmarks",
+  "name": "gql benchmarks",
   "version": "1.0.0",
-  "description": "Benchmarks for Fastify, a fast and low-overhead web framework.",
+  "description": "GraphQL performance benchmarks",
   "main": "index.js",
   "scripts": {
     "start": "node benchmark.js && node benchmark.js compare -t",
@@ -15,15 +15,8 @@
   "bin": {
     "benchmark": "./benchmark.js"
   },
-  "repository": "https://github.com/fastify/benchmarks.git",
-  "author": "Çağatay Çalı",
-  "contributors": [
-    {
-      "name": "Stefan Aichholzer",
-      "email": "theaichholzer@gmail.com",
-      "url": "https://github.com/aichholzer"
-    }
-  ],
+  "repository": "",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "@hapi/hapi": "^18.3.0",
