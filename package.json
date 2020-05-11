@@ -1,5 +1,5 @@
 {
-  "name": "gql benchmarks",
+  "name": "gql-benchmarks",
   "version": "1.0.0",
   "description": "GraphQL performance benchmarks",
   "main": "index.js",
