@@ -3,7 +3,6 @@ const bodyParser = require("koa-bodyparser");
 const { errorHandler, execute } = require("graphql-api-koa");
 const { graphqlUploadKoa } = require("graphql-upload");
 const { createApolloSchema } = require("../lib/createApolloSchema");
-
 const schema = createApolloSchema();
 
 const app = new Koa()

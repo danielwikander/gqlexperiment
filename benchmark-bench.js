@@ -38,7 +38,7 @@ inquirer
       type: "input",
       name: "connections",
       message: "How many connections do you need?",
-      default: 5,
+      default: 10,
       validate(value) {
         return !Number.isNaN(parseFloat(value)) || "Please enter a number";
       },
