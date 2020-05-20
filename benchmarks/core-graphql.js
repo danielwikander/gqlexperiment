@@ -1,7 +1,7 @@
 const { createServer } = require('http');
-const { graphql, parse } = require('graphql');
-const { createApolloSchema } = require('../lib/createApolloSchema');
-const schema = createApolloSchema();
+const { graphql } = require('graphql');
+const { createSchema } = require('../lib/createSchema');
+const schema = createSchema();
 
 const server = createServer(function (req, res) {
   let payload = '';

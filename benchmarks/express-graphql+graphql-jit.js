@@ -1,11 +1,11 @@
-const graphqlHTTP = require("express-graphql");
-const { createApolloSchema } = require("../lib/createApolloSchema");
 const express = require("express");
+const graphqlHTTP = require("express-graphql");
 const { parse } = require("graphql");
 const { compileQuery } = require("graphql-jit");
 const { graphqlUploadExpress } = require("graphql-upload");
+const { createSchema } = require('../lib/createSchema');
+const schema = createSchema();
 const app = express();
-const schema = createApolloSchema();
 const cache = {};
 
 app.use(

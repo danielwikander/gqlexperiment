@@ -75,7 +75,7 @@ if (!choices.length) {
         beBold,
         chalk.blue(
           commander.commandlineMdTable
-            ? `[${data.server}](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/${data.server}.js)`
+            ? `[${data.server}](https://github.com/danielwikander/gqlexperiment/tree/master/benchmarks/${data.server}.js)`
             : data.server
         )
       ),

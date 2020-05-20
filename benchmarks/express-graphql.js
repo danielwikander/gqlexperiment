@@ -1,9 +1,9 @@
-const graphqlHTTP = require("express-graphql");
-const { createApolloSchema } = require("../lib/createApolloSchema");
-const { graphqlUploadExpress } = require("graphql-upload");
 const express = require("express");
+const graphqlHTTP = require("express-graphql");
+const { graphqlUploadExpress } = require("graphql-upload");
+const { createSchema } = require('../lib/createSchema');
+const schema = createSchema();
 const app = express();
-const schema = createApolloSchema();
 
 app.use(
   "/graphql",

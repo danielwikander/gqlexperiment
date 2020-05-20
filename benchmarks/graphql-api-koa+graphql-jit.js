@@ -4,8 +4,8 @@ const { errorHandler, execute } = require("graphql-api-koa");
 const { graphqlUploadKoa } = require("graphql-upload");
 const { parse } = require("graphql");
 const { compileQuery } = require("graphql-jit");
-const { createApolloSchema } = require("../lib/createApolloSchema");
-const schema = createApolloSchema();
+const { createSchema } = require('../lib/createSchema');
+const schema = createSchema();
 const cache = {};
 
 const app = new Koa()
